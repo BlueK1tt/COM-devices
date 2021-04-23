@@ -1,3 +1,4 @@
+@ECHO OFF
 CLS
 wmic path Win32_SerialPort GET DeviceID, Name
 
